@@ -1,19 +1,19 @@
 .carousel-item .custom-bg{
-    background:#fceae8;
+    background:#fceae8 !important;
 }
 .text-pink{
-    color: #ff136f;
+    color: #ff136f !important;
 }
 .btn-pink{
-    background-color: #ff136f;
-    color: #fff;
+    background-color: #ff136f !important;
+    color: #fff !important;
 }
 .bg-gold{
-    background:#ffa500;
+    background:#ffa500 !important;
 }
 .bg-lavender{
-    background:#da70d6;
+    background:#da70d6 !important;
 }
 .bg-blue{
-    background:#0000ff;
+    background:#0000ff !important;
 }
