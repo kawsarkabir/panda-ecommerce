@@ -13,10 +13,11 @@
   </head>
   <body>
     <!--------------------------- 
-        navigration section start
+        header section start
     ------------------------- -->
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <header class="container">
+        <!-- navbar start-->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light p-2">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="./images/logo.png" alt="">
@@ -28,21 +29,88 @@
               <div class="collapse navbar-collapse" id="collapsibleNavId">
                   <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                       <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                          <a class="nav-link active fs-5" href="#">Home <span class="visually-hidden">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">shoes</a>
+                          <a class="nav-link fs-5" href="#">shoes</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Backpacks</a>
+                          <a class="nav-link fs-5" href="#">Backpacks</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Subscribe</a>
+                          <a class="nav-link fs-5" href="#">Subscribe</a>
                       </li>
                   </ul>
               </div>
         </div>
       </nav>
+      <!-- navbar end -->
+      <!-- coursel start -->
+
+     <section class="mt-5">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active border rounded-4 ">
+            <div class="row align-items-center custom-bg p-5">
+              <div class="col-lg-7">
+                <div>
+                  <h1>Cool Dude Headphone</h1>
+                  <p class="fs-5">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                  <p class="h1 text-pink">$420</p>
+                  <button class="btn btn-pink btn-lg">Buy Now</button>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img class="img-fluid" src="/images/banner-images/headphone.png" alt="First slide">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item border rounded-4">
+            <div class="row align-items-center custom-bg p-5 ">
+              <div class="col-lg-7">
+                <div>
+                  <h1>Mega LCD TV For Sports
+                  </h1>
+                  <p class="fs-5">This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                  <p class="h1 text-pink">$600</p>
+                  <button class="btn btn-pink btn-lg">Buy Now</button>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img class="img-fluid" src="/images/banner-images/tv.png" alt="First slide">
+              </div>
+          </div>
+        </div>
+          <div class="carousel-item border rounded-4">
+            <div class="row align-items-center custom-bg p-5">
+              <div class="col-lg-7">
+                <div>
+                  <h1>X-Box for your living room
+                  </h1>
+                  <p class="fs-5">This is the best x-box in the world for people who just want to waste time in front of fake sports.
+
+                  </p>
+                  <p class="h1 text-pink">$1200</p>
+                  <button class="btn btn-pink btn-lg">Buy Now</button>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img class="img-fluid" src="/images/banner-images/xbox.png" alt="First slide">
+              </div>
+          </div>
+           
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     </section>
+      <!-- coursel end -->
     </header>
     
 
